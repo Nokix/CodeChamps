@@ -13,7 +13,8 @@ Wir erhöhen sechs Mal (sind dann beim Wert 6), quadrieren dann (mit s, sind als
 und ziehen drei ab (drei mal d).
 Wenn wir nun den Output machen, dann wird auf der Konsole das Ausrufezeichen ausgegeben.
 
-Bei 255 findet der Überlauf statt, die 256 wird also durch 0 ersetzt. Wenn wir bei 0 sind und dekrementieren, landen wir bei 255.
+Bei 255 findet der Überlauf statt, die 256 wird also durch 0 ersetzt.
+Wenn wir bei 0 sind und dekrementieren, landen wir bei 255.
 Schreibe ein Programm, das folgenden Deadfish-Code interpretiert:
 
 dddsisdsddoddssiiiiodoiisioiisdddoisdodddsiiiioisissddoiiiodddddsddoddoiisdddoiso
@@ -41,7 +42,7 @@ def decode(code):
     return output
 
 
-"""Deadfish Decoder⭐⭐⭐
+"""Deadfish Encoder⭐⭐⭐
 
 Bei der sogenannten "esoterischen Programmiersprache" Deadfish gibt es genau vier Anweisungen:
 d (decrease), i (increase), s (square) und o (output).

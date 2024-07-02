@@ -95,7 +95,7 @@ class Knight(Figure):
 
 
 if __name__ == '__main__':
-    board = ChessboardCreator(Knight()).create()
+    board = ChessboardCreator(Knight(), 5, 5).create()
     print(board)
     found_cycles = board.find_cycles("A1")
     for cycle in found_cycles:

@@ -1,14 +1,13 @@
 from unittest import TestCase
 from parameterized import parameterized
 
-""" Collanzvermutung ⭐⭐⭐
-Schreibe ein Programm, das die Zahl unter 1 Million findet, 
-die die längste Folge in der Collatz-Sequenz erzeugt. 
-Die Collatz-Sequenz startet bei einer Zahl n > 1 und folgt den Regeln: 
-Wenn n gerade ist, dann n = n / 2, ansonsten n = 3n + 1, bis n = 1 erreicht. 
-Wie lang ist diese Sequenz? 
+""" 1ner-Vermutung ⭐⭐⭐
 
-Ggf. Zeitlimit für die Aufgabe einbauen
+Die 1ner-Sequenz startet bei einer Zahl n > 1 und folgt den Regeln: 
+Wenn n gerade ist, dann n <- n / 2, ansonsten n <- 3n + 1, bis n = 1 erreicht. 
+
+Finde die kleinste Zahl 1 < n < 1.000.000 mit der längsten Sequenz.
+Wie lang ist die Sequenz für welches n? 
 
 8 -> 4 -> 2 -> 1 (Länge 4)
 
@@ -16,6 +15,8 @@ Ggf. Zeitlimit für die Aufgabe einbauen
 
 6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1 (Länge 9)
 
+Wenn du schaffst zu zeigen, warum die Ketten immer bei 1 enden,
+sorge ich persönlich dafür, dass du einen Doktor erhälst.
 """
 
 known_chains = {1: {"l": 1}}

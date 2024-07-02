@@ -5,8 +5,11 @@ from parameterized import parameterized
 Wusstest du, dass 3779 und 3593 beides Primzahlen sind?
 Und wusstest du, dass 3593 + 3779 + 1 = 7373 ergibt?
 
-Welche anderen Primzahlpärchen (a,b) mit a <= b gibt es insgesamt,
+Welche Primzahlpärchen (a,b) mit a <= b gibt es insgesamt,
 die a + b + 1 = 7373 ergeben?
+
+Wenn du schaffst zu zeigen, warum die Ketten immer bei 1 enden,
+sorge ich persönlich dafür, dass du einen Doktor erhälst.
 """
 
 

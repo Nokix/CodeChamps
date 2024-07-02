@@ -1,3 +1,9 @@
+"""Fibonnaccis Bruder⭐
+Die Fibbonacci-Folge beginnt mit den Zahlen 0 und 1.
+Wenn Die Beiden Startzahlen -3 und -4 sind, was ist dann der 1000-ste Eintrag?
+
+"""
+
 def fib(n, s0, s1):
     if n == 0:
         return s0
