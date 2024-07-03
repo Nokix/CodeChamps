@@ -13,5 +13,6 @@ def fib(n, s0, s1):
 if __name__ == '__main__':
     start0 = -3
     start1 = -4
-    for i in range(100):
+    for i in [72]:
         print(fib(i, start0, start1), end=" ")
+

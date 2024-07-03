@@ -57,6 +57,11 @@ class DescribeTest(TestCase):
     def test_describe(self, number, described_number):
         self.assertEqual(described_number, describe(number))
 
+    def test_describe(self):
+        n = 1
+        for i in range(73):
+            print(f"{i}: 1-sen: {str(n).count("3")} {n}")
+            n = describe(n)
 
 if __name__ == '__main__':
-    ...
+    print(describe(25).count("1"))

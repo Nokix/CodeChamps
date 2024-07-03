@@ -22,5 +22,5 @@ def is_123number(n):
 
 
 if __name__ == '__main__':
-    nth_123number(333)
+    nth_123number(73)
     print(nth_123number.store)
